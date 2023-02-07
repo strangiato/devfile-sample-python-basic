@@ -36,7 +36,7 @@ components:
       deployment/memoryLimit: 100Mi
       deployment/memoryRequest: 50Mi
       deployment/container-port: 8081
-    kubernetes:
+    openshift:
       uri: deploy.yaml
       endpoints:
       - name: http-8081
